@@ -1,0 +1,72 @@
+@media screen and (max-width:535px) {
+    
+    .logofot{
+        margin-right: 70px;
+    }
+    .centrifyfot{
+        margin-left: 30px;
+    }
+    .compinf {
+        width: 127%;
+    }
+    .works2 {
+     padding-top:0;
+}
+.centrifyfotour{
+    margin-left: 0;
+    margin-right: 40px;
+}
+.itemswhy {
+    margin-left: 0px;
+    transition: 0.5s;
+}
+.centrifywhy h1 {
+    font-size: 21px;
+    width: 260px;
+    margin-left: -25px;
+}
+.twoparts {
+    flex-direction: column;
+}
+.twoparts div {
+    margin-top: 40px;
+    padding-left: 0;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.textactive {
+    max-width: 100%;
+}
+
+.ramkablack {
+    max-width: 280px;
+    padding: 22px;
+    transition: 0.5s;
+}
+input {
+    min-width: 245px;
+}
+button{
+    width: 103%;
+}
+}
+
+@media screen and (max-width:425px) {
+    .ewerabot {
+        font-size: 15px;
+    }
+    .centrifyfotour {
+        margin-left: -27px;
+        margin-right: 53px;
+    }
+    .centrifyactive {
+        margin-left: 34px;
+        margin-right: 33px;
+    }
+    .centrifyfotour {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+}

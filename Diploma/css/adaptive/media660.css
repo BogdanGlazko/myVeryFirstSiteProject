@@ -1,0 +1,40 @@
+@media screen and (max-width:660px) {
+    .links{
+        display: none;
+    }
+.menuicon{
+    display: block;
+}
+.digital {
+    font-size: 21px;
+}   
+.razdelna2 {
+    width: 400px;
+    margin-top: -40px;
+}
+.textpicture {
+    font-size: 32px;
+    margin-top: -20px;
+}
+.centrify {
+    font-size: 15px;
+}
+.centrify2{
+    margin: 10px;
+}
+.blocks div{
+    min-width: 300px;
+    padding: 1em;
+}
+.block1 h1{
+    font-size: 24px;
+
+}
+.ourcontact {
+    font-size: 15px;
+
+}
+.compinf{
+    width: 195%;
+}
+}

@@ -1,0 +1,50 @@
+@media screen and (max-width:1600px) {
+    .links span{
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    .blocks div{
+        padding-right: 20px;
+       transition: 0.5s;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .strelka001{
+        margin-top: -179px;
+        margin-left: 2px;
+    }
+    .whatpropose{
+        font-size: 22px;
+        transition: 0.5s;
+    }
+    .buttons {
+        margin-left: 50px;
+        transition: 0.5s;
+    }
+    .blocks div{
+       transition: 0.5s;
+       font-size: 13px;
+    
+    }
+    .blocks h1{
+        font-size: 16px;
+    }
+
+    .ourworks{
+        flex-direction: column;
+    }
+        .divi{
+            background-size: 260px;
+        }
+        .ourwork2{
+            margin-top: 0;
+        }
+}
+
+@media screen and (max-width:1380px) {
+    .strelka001{
+        margin-top: -181px;
+        margin-left: 2px;
+    }
+}

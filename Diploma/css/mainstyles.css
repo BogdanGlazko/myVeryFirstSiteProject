@@ -1,0 +1,49 @@
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.greycolor{
+    font-weight:300;
+   color:rgba(255, 255, 255, 0.6) ; 
+}
+.centrify{
+    margin-left: 140px;
+    margin-right: 140px;
+width: auto;
+}
+main, header, section{
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
+    margin: auto;
+}
+a:visited {
+    decoration: none; 
+}
+a{
+    text-decoration: none; 
+    color: aliceblue;
+}
+.menuicon{
+    display: none;
+}
+
+.otpravka{
+    width: 100px;
+    color: brown;
+}
