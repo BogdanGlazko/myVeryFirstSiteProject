@@ -1,0 +1,125 @@
+@media screen and (max-width:1352px) {
+    .links span{
+        margin-right: 10px;
+        font-size: 12px;
+        transition: 0.5s;
+    }
+    .logo{
+        margin-right: 150px;
+    }
+    .compinf{
+        max-width: 515px;
+        transition: 0.5s;
+    }
+    #ball{
+        transition: 0.5s;
+        margin-left: 30px;
+        max-block-size: 302px;
+    }
+
+    .rightside img{
+        max-width: 275px;
+        transition: 0.5s;
+        margin-top: 40px;
+    }
+    .leftside{
+        font-size: 16px;
+        transition: 0.5s;
+    }
+    .sides{
+        margin-bottom: 35px;
+    }
+    .strelka001{
+        margin-top: -129px;
+    margin-left: -21px;
+    }
+.button,input{
+    min-width: 338px;
+}
+    .leftcontact{
+        margin-right: 35px;
+        font-size: 15px;
+    }
+    .leftcontact h1{
+        font-size: 24px;
+    }
+    .leftcontact p,.leftcontact span{
+        font-size: 16px;
+    }
+    .leftcontact p span{
+    display: flex;
+    }
+
+}
+@media screen and (max-width:1080px) {
+    .textactive{
+        font-size: 18px;
+       
+    }
+    .centrify2 {
+     margin-left: 0;
+}
+.blocks {
+    flex-direction: column;
+    align-items: stretch;
+}
+.blocks div {
+    padding: 4em;
+    transition: 0.5s;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+.blocks h1 {
+    font-size: 24px;
+    transition: 0.5s;
+}
+.centrify2 {
+    margin: 5em;
+}
+.text{
+    max-width: 460px;
+}
+.itemswhy {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 160px;
+}
+.itemw {
+    margin-bottom: 25px;
+}
+.leftcontact h1{
+font-size: 26px;
+}
+
+.leftcontact p{
+    font-size: 16px;
+    }
+    .leftcontact{
+        margin-bottom: 100px;
+    }
+
+.sides{
+    flex-direction: column;
+    align-items: center;
+}
+.strelka00{
+    display: none;
+}
+.centrify {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.centrifywhy1{
+    margin-left: 60px;
+    margin-right: 90px;
+}
+.rightside img{
+    display: none;
+}
+.centerfot{
+    margin-left: 0;
+}
+.rightfot{
+    font-size: 14px;
+}
+}

@@ -1,0 +1,112 @@
+.activetrust{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 100%;
+}
+
+.krug{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logokrug{
+    width: 496px;
+    height: 334px;
+}
+.textactive{
+max-width: 60%;
+font-family: Montserrat;
+font-size: 24px;
+font-weight:300;
+line-height: 36px;
+}
+.bold{
+    font-weight: 700;
+}
+
+.circle {
+    position: relative;
+    width: 60%;
+    padding-top: 75%;
+    font: 60vmin monospace;
+    margin: 17% auto;
+}
+
+/* верхние 17 букв «Шпаргалка блоггера» */
+.circle b:nth-of-type(-n+27) {
+  bottom: 50%;
+  transform-origin: 0% 100%;
+  padding-bottom: 50%;  /* от значения свойства зависит приближение текста к центру круга */
+}
+.circle b:nth-of-type(1) {transform: rotate(185deg);}
+.circle b:nth-of-type(2) {transform: rotate(199deg);}
+.circle b:nth-of-type(3) {transform: rotate(206deg);}
+.circle b:nth-of-type(4) {transform: rotate(221deg);}
+.circle b:nth-of-type(5) {transform: rotate(231deg);}
+.circle b:nth-of-type(6) {transform: rotate(243deg);}
+.circle b:nth-of-type(7) {transform: rotate(257deg);}
+.circle b:nth-of-type(8) {transform: rotate(268deg);}
+.circle b:nth-of-type(9) {transform: rotate(280deg);}
+.circle b:nth-of-type(10) {transform: rotate(295deg);}
+.circle b:nth-of-type(11) {transform: rotate(307deg);}
+.circle b:nth-of-type(12) {transform: rotate(321deg);}
+.circle b:nth-of-type(13) {transform: rotate(337deg);}
+.circle b:nth-of-type(14) {transform: rotate(351deg);}
+.circle b:nth-of-type(15) {transform: rotate(364deg);}
+.circle b:nth-of-type(16) {transform: rotate(377deg);}
+
+.circle b:nth-of-type(17) {transform: rotate(40deg);}
+.circle b:nth-of-type(18) {transform: rotate(55deg);}
+.circle b:nth-of-type(19) {transform: rotate(68deg);}
+.circle b:nth-of-type(20) {transform: rotate(79deg);}
+.circle b:nth-of-type(21) {transform: rotate(85deg);}
+.circle b:nth-of-type(22) {transform: rotate(97deg);}
+.circle b:nth-of-type(23) {transform: rotate(116deg);}
+.circle b:nth-of-type(24) {transform: rotate(126deg);}
+.circle b:nth-of-type(25) {transform: rotate(138deg);}
+.circle b:nth-of-type(26) {transform: rotate(152deg);}
+.circle b:nth-of-type(27) {transform: rotate(163deg);}
+
+
+
+.circle b{
+    background: url(../images/imagetextkrug.png) no-repeat center/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    left: 25%;
+    
+    min-height: 60px;
+    width: 100%;
+    padding-top: 82px;
+    font-weight: 600;
+    font-size: 55px;
+    font-family: 'Montserrat';
+}
+#boldcc{
+    font-weight: 900;
+font-size: 60px;    
+}
+/* 
+квадрат со стрелкой */
+
+.strelka001{
+    display: flex;
+    margin-top: -200px;
+    flex-direction: row;
+}
+}
+.mainsvyazj{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 150px;
+}
+.svyazj{
+    position: relative;
+}
+

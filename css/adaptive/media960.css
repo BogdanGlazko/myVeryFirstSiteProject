@@ -1,0 +1,54 @@
+@media screen and (max-width:960px) {
+    
+    .centerfot a {
+        font-size: 15px;
+    }
+.shrift{
+    font-size: 10px;
+}
+
+#ball{
+    width: 34%;
+}
+.sides2,.krug{
+    flex-direction: column;
+    align-items: center;
+}
+.logokrug{
+    display: none;
+}
+.centerfot{
+    margin-left: -172px;
+}
+.rightfot{
+    flex-direction: column;
+    margin-left: -103px;
+}
+.leftfot,.centerfot{
+    margin-bottom: 15px;
+}
+.digital{
+    font-size: 35px;
+}
+.links{
+     
+        transition: 0.5s;
+        padding-top: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;    
+}
+
+#ball{
+    display: none;
+}
+
+.compinf{
+    max-width: 515px;
+}
+
+.textactive{
+    max-width: 100%;
+}
+
+}

@@ -1,0 +1,130 @@
+.sides{
+    display: flex;
+    flex-direction: row;
+
+}
+.works{
+    color: black;
+    background: rgba(225, 232, 244, 1);
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+.leftside{
+    padding-top: 65px;
+}
+.whatpropose, .buttons{
+    padding-top: 65px;
+    font-weight: bold;
+    font-weight: 800;
+    font-size: 32px;
+}
+.poputi{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.proposebutton, .buttons{
+    display: flex;
+    flex-direction: row;
+}
+.button1, .button2{
+    min-width: 45px;
+    min-height: 37px;
+    border: solid rgba(2, 123, 253, 0.5) 2px;
+    border-radius: 10%;
+}
+.buttons{
+    margin-left: 185px;
+}
+.button1{
+    margin-right: 10px;
+}
+.blocks{
+    display: flex;
+    flex-direction: row;
+    flex-basis: calc(100%/5);
+}
+.blocks div{
+    
+    max-height: 354px;
+    border-radius: 2%;
+    box-shadow: 0px 15px 20px 0px #0D0D0D;
+    color: white;
+    background-color:black;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 33px;
+    font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+flex-basis: calc(100%/5);
+
+}
+
+.centrify2{
+    margin-left: 140px;
+} 
+
+.blocks h1{
+    color: rgba(89, 168, 253, 1);
+    font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.blocks>div span{
+    display: flex;
+}
+
+.strelockab2{
+    margin-top: 18.7px;
+    margin-left: 13px;
+    border-top: rgba(89, 168, 253, 1) solid 2px;
+    /* max-height: 12px; */
+    width: 20px;
+}
+
+.nakonecb2{
+    border: solid rgba(89, 168, 253, 1);
+    border-width: 0px 2px 2px 0px;
+    border-radius: 10%;
+    -webkit-transform: rotate( 
+315deg);
+    height: 10px;
+    width: 10px;
+    margin-top: -7px;
+    margin-left: 20px;
+}
+
+.strelockab1{
+    margin-top: 18.7px;
+    margin-left: 14px;
+    border-top: rgba(89, 168, 253, 1) solid 2px;
+    max-height: 1px;
+    width: 19px;
+}
+
+.nakonecb1{
+    border: solid rgba(89, 168, 253, 1);
+    border-width: 0px 2px 2px 0px;
+    border-radius: 10%;
+    -webkit-transform: rotate(137deg);
+    height: 10px;
+    width: 10px;
+    margin-top: -7px;
+    margin-left: 15px;
+}
+
+.button1:hover,.button2:hover{
+color: white;
+background-color: rgba(2, 123, 253, 1);
+transition: 0.5s;
+}
