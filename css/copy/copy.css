@@ -31,9 +31,44 @@ font-weight: 500;
     padding-top: 183px;
 }
 #ball{
-    margin-left: 210px;
+    margin-right: 135px;
     margin-top: 79px;
 }
 .compinf{
     margin-bottom: 103px;
 }
+.razdelna2{
+    justify-content: space-between;
+    max-width: 1920px;
+}
+
+.compinf span{
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+.num{
+ 
+    max-height: 70px;
+}
+
+.text{
+    margin-top: 74px;
+    max-width: 410px;
+}
+
+.centryfywhy{
+max-width: 850px;
+
+}
+.centrify{
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.itemswhy {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1222px;
