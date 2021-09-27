@@ -1,8 +1,8 @@
 //welcome
 
-let myText;
-myText = "Вы на странице Active Trust!";
-alert(myText);
+// let myText;
+// myText = "Вы на странице Active Trust!";
+// alert(myText);
 
 //Form
 function remindMe() {

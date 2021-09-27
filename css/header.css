@@ -121,7 +121,7 @@ header{
       display: flex;
       flex-direction: row;
   }
-  #ball{
+  #ball{margin-top: 55px;
     height: 100%;
     border-style: none;
     width: 40%;

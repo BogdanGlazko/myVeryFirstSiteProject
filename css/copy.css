@@ -1,0 +1,39 @@
+.stylelinks a{
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+#whitecolor{
+color: white;
+font-weight: 500;
+}
+
+.stylelinks>a:not(#whitecolor)::after{
+    content: " / ";
+}
+
+.companyname{
+    margin-top: 60px;
+}
+
+.textpicture{
+    min-height: 58px;
+    max-width: 510px;
+    width: 100%;
+    padding-bottom: 189px;
+    padding-top: 183px;
+}
+#ball{
+    margin-left: 210px;
+    margin-top: 79px;
+}
+.compinf{
+    margin-bottom: 103px;
+}
