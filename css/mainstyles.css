@@ -47,3 +47,8 @@ a{
     width: 100px;
     color: brown;
 }
+
+a:hover{
+    text-shadow: 1.5px 1.5px grey;
+    transition: 0.3s;
+}
